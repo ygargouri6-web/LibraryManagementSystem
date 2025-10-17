@@ -23,5 +23,5 @@ jobs:
     - name: Compile Java source files
       run: javac -d . $(find . -name "*.java")
 
-    - name: Run basic application test
-      run: LibraryApp
+    - name: Run Library Application
+      run: java library.LibraryApp
