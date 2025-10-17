@@ -26,5 +26,6 @@ public abstract class Book {
     @Override
     public String toString() {
         return "Book [title=" + title + ", author=" + author + ", price=" + price + "]";
+        // Trigger CI build test
     }
 }
